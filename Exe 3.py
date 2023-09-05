@@ -8,7 +8,7 @@ def adivinha(num_aleatorio):
         chute.append(int(input("Qual numero o programa escolheu: ")))
         
         if chute[i] == num_aleatorio:
-            print("PARABÉNS, VOCÊ GANHOU O JOGO!!!")
+            print("PARABÉNS!!! VOCÊ GANHOU O JOGO COM: ", len(chute),"CHUTES")
             break
         
         elif chute[i] > num_aleatorio:
